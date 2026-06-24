@@ -95,8 +95,16 @@ while i <len (matrix):
         y+=1
     i+=1'''
 #3 
-number =[1,2,3,4,5,6]
+'''number =[1,2,3,4,5,6]
 i = len (number)-1
 while i >=0:
     print(number[i])
-    i-=1 
+    i-=1 '''
+#4
+
+data = [10, 30, 55, 20, 80]
+i=0 
+while i < len(data):
+    if data[i] >= 50 :
+        print('index', i )
+    i+=1
