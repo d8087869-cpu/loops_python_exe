@@ -64,7 +64,34 @@ while i < len(data):
     i=i+1
 print(total)
 '''
+#10
+'''
 n = 10
 i = 1
 while i<=10:
     print(f'')
+'''#לא הצלחתי לפתור 
+
+
+#part 2 
+#1 
+items = ['a', 'x', 'b', 'x', 'x'] 
+i=0 
+while i < len (items):
+    items.remove("x")
+    i+=1
+print(items)    
+
+
+
+
+#2 
+"""matrix = [[1, 2], [3, 4], [5, 6]]
+row = 0 
+while row <len (matrix):
+    cell=0 
+    while cell < len (matrix[row]):
+        print(matrix[row][cell])
+        row+=1
+    cell+=1"""
+    
