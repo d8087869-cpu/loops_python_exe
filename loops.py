@@ -75,23 +75,28 @@ while i<=10:
 
 #part 2 
 #1 
-items = ['a', 'x', 'b', 'x', 'x'] 
+'''items = ['a', 'x', 'b', 'x', 'x'] 
 i=0 
 while i < len (items):
     items.remove("x")
     i+=1
 print(items)    
-
+'''
 
 
 
 #2 
-"""matrix = [[1, 2], [3, 4], [5, 6]]
-row = 0 
-while row <len (matrix):
-    cell=0 
-    while cell < len (matrix[row]):
-        print(matrix[row][cell])
-        row+=1
-    cell+=1"""
-    
+'''matrix = [[1, 2], [3, 4], [5, 6]]
+i= 0 
+while i <len (matrix):
+    y=0
+    while y<len(matrix[i]):
+        print(matrix[i][y])
+        y+=1
+    i+=1'''
+#3 
+number =[1,2,3,4,5,6]
+i = len (number)
+while i < len(number):
+    print(number)
+    i-=1 
