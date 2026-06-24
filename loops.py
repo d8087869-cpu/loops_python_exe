@@ -96,7 +96,7 @@ while i <len (matrix):
     i+=1'''
 #3 
 number =[1,2,3,4,5,6]
-i = len (number)
-while i < len(number):
-    print(number)
+i = len (number)-1
+while i >=0:
+    print(number[i])
     i-=1 
