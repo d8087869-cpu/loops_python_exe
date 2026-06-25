@@ -9,6 +9,7 @@ for i in range(1,6):
 for i in range(0, 10, 2):
     print(i)'''
 #4
+'''
 fruits = ['apple', 'banana', 'cherry']
 for index, fruit in enumerate(fruits):
     print(f'{index}: {fruit}')
@@ -16,4 +17,8 @@ for index, fruit in enumerate(fruits):
 scores = {'Alpha': 80, 'Bravo': 95}
 for name , score in scores.items():
     print(f'{name} , {score}')
-    
+'''    
+#6
+numbers = [1, 2, 3, 4, 5]
+for result in numbers: 
+    print(result)
