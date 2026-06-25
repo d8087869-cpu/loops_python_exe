@@ -66,3 +66,12 @@ print(pairs)
 names = ['david', 'ethan', 'gabi']
 for index, names in enumerate(names, start=1):
     print(f'{index}: {names}')
+
+#4 
+matrix = [[1, 2], [3, 4], [5, 6]]
+i = [num for row in matrix for num in row]
+print(i)
+#5
+words = ['hello', 'world', 'python']
+cap_letter = [word.upper() for word in words]
+print(cap_letter)
