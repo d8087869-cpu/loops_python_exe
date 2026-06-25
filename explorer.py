@@ -19,8 +19,21 @@ for name , score in scores.items():
     print(f'{name} , {score}')
 '''    
 #6
+'''
 numbers = [1, 2, 3, 4, 5]
 total = 0 
 for i in numbers:
     total+=i
-    print(total)
+    print(total)'''
+#7 
+'''
+i = 1
+while i<= 5: 
+    print(i)
+    i+=1
+'''
+'''
+for i in range(1,6):
+    print(i)'''
+
+#8
