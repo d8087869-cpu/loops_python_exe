@@ -58,6 +58,11 @@ scores = [80, 95]
 for name, score in zip(names, scores):
     print(f"{name}: {score}")
 
-#3 
+#2 
 pairs = [(n, n**2) for n in range(1, 6)]
 print(pairs)
+
+#3 
+names = ['david', 'ethan', 'gabi']
+for index, names in enumerate(names, start=1):
+    print(f'{index}: {names}')
