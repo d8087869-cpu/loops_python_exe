@@ -20,5 +20,7 @@ for name , score in scores.items():
 '''    
 #6
 numbers = [1, 2, 3, 4, 5]
-for result in numbers: 
-    print(result)
+total = 0 
+for i in numbers:
+    total+=i
+    print(total)
