@@ -75,3 +75,6 @@ print(i)
 words = ['hello', 'world', 'python']
 cap_letter = [word.upper() for word in words]
 print(cap_letter)
+
+
+#self learn
