@@ -78,3 +78,6 @@ print(cap_letter)
 
 
 #self learn
+# loop by val for when you need the data and not position
+#loop by index when you need data and position 
+#2 we use when you want to creat a new list in an existing list 
