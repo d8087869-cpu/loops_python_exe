@@ -119,3 +119,10 @@ while i < len(guesses):
         print(i+1)
     i+=1    '''
 #self learn 
+#matrix is a list in a list becous if you whould have only one loop there will be only one row one list with no columns .
+#2 brake in a inner loop stops the currrent row 
+#in a outer loop it stops all the proccess of the loop 
+#3 in sserch task you use braek when you find what you were looking for . and dont need the loop keep working .
+#4 continue skips the val you told him , but keeps on the loop 
+#5 current row continus to the next row 
+# and the row you jumpt ren=main the same .  
