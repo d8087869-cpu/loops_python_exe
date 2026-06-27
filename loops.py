@@ -126,3 +126,45 @@ while i < len(guesses):
 #4 continue skips the val you told him , but keeps on the loop 
 #5 current row continus to the next row 
 # and the row you jumpt ren=main the same .  
+#1 
+matrix = [
+    [2, 4, 6],
+    [3, 99, 5],
+    [8, 1, 7]]
+
+for row in matrix:
+    for value in row:
+        if value > 50:
+            print("Danger value:", value)
+            break
+
+
+#2 
+matrix = [
+    [5, -1, 8],
+    [3, 4, -1],
+    [9, 2, 6]]
+
+for row in matrix:
+    for value in row:
+        if value == -1:
+            continue  
+        print("Valid value:", value)
+
+
+#3 
+matrix = [
+    [4, 7, 2],
+    [9, 0, 3],
+    [1, 8, 5]
+]
+
+found = False
+for row in matrix:
+    for value in row:
+        if value == 0:
+            print("Found zero")
+            found = True
+            break
+    if found:
+        break
